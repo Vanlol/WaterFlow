@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8442B2CF1F0132ED000F914C /* 1.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8442B2CE1F0132ED000F914C /* 1.plist */; };
+		8477089A1EEA6941009BD520 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847708991EEA6941009BD520 /* AppDelegate.swift */; };
+		8477089C1EEA6941009BD520 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8477089B1EEA6941009BD520 /* ViewController.swift */; };
+		8477089F1EEA6941009BD520 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8477089D1EEA6941009BD520 /* Main.storyboard */; };
+		847708A11EEA6941009BD520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847708A01EEA6941009BD520 /* Assets.xcassets */; };
+		847708A41EEA6941009BD520 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847708A21EEA6941009BD520 /* LaunchScreen.storyboard */; };
+		847708AF1EEA6941009BD520 /* SwiftWaterFlowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847708AE1EEA6941009BD520 /* SwiftWaterFlowTests.swift */; };
+		847708BA1EEA6941009BD520 /* SwiftWaterFlowUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847708B91EEA6941009BD520 /* SwiftWaterFlowUITests.swift */; };
+		847708C91EEA997C009BD520 /* MyCollViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847708C71EEA997C009BD520 /* MyCollViewCell.swift */; };
+		847708CA1EEA997C009BD520 /* MyCollViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 847708C81EEA997C009BD520 /* MyCollViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		847708AB1EEA6941009BD520 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8477088E1EEA6941009BD520 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 847708951EEA6941009BD520;
+			remoteInfo = SwiftWaterFlow;
+		};
+		847708B61EEA6941009BD520 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8477088E1EEA6941009BD520 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 847708951EEA6941009BD520;
+			remoteInfo = SwiftWaterFlow;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8442B2CE1F0132ED000F914C /* 1.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = 1.plist; sourceTree = "<group>"; };
+		847708961EEA6941009BD520 /* SwiftWaterFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftWaterFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		847708991EEA6941009BD520 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8477089B1EEA6941009BD520 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8477089E1EEA6941009BD520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		847708A01EEA6941009BD520 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		847708A31EEA6941009BD520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		847708A51EEA6941009BD520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847708AA1EEA6941009BD520 /* SwiftWaterFlowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftWaterFlowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		847708AE1EEA6941009BD520 /* SwiftWaterFlowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftWaterFlowTests.swift; sourceTree = "<group>"; };
+		847708B01EEA6941009BD520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847708B51EEA6941009BD520 /* SwiftWaterFlowUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftWaterFlowUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		847708B91EEA6941009BD520 /* SwiftWaterFlowUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftWaterFlowUITests.swift; sourceTree = "<group>"; };
+		847708BB1EEA6941009BD520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		847708C71EEA997C009BD520 /* MyCollViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyCollViewCell.swift; sourceTree = "<group>"; };
+		847708C81EEA997C009BD520 /* MyCollViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCollViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		847708931EEA6941009BD520 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847708A71EEA6941009BD520 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847708B21EEA6941009BD520 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8477088D1EEA6941009BD520 = {
+			isa = PBXGroup;
+			children = (
+				847708981EEA6941009BD520 /* SwiftWaterFlow */,
+				847708AD1EEA6941009BD520 /* SwiftWaterFlowTests */,
+				847708B81EEA6941009BD520 /* SwiftWaterFlowUITests */,
+				847708971EEA6941009BD520 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		847708971EEA6941009BD520 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				847708961EEA6941009BD520 /* SwiftWaterFlow.app */,
+				847708AA1EEA6941009BD520 /* SwiftWaterFlowTests.xctest */,
+				847708B51EEA6941009BD520 /* SwiftWaterFlowUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		847708981EEA6941009BD520 /* SwiftWaterFlow */ = {
+			isa = PBXGroup;
+			children = (
+				847708991EEA6941009BD520 /* AppDelegate.swift */,
+				8477089B1EEA6941009BD520 /* ViewController.swift */,
+				847708C71EEA997C009BD520 /* MyCollViewCell.swift */,
+				847708C81EEA997C009BD520 /* MyCollViewCell.xib */,
+				8477089D1EEA6941009BD520 /* Main.storyboard */,
+				847708A01EEA6941009BD520 /* Assets.xcassets */,
+				847708A21EEA6941009BD520 /* LaunchScreen.storyboard */,
+				8442B2CE1F0132ED000F914C /* 1.plist */,
+				847708A51EEA6941009BD520 /* Info.plist */,
+			);
+			path = SwiftWaterFlow;
+			sourceTree = "<group>";
+		};
+		847708AD1EEA6941009BD520 /* SwiftWaterFlowTests */ = {
+			isa = PBXGroup;
+			children = (
+				847708AE1EEA6941009BD520 /* SwiftWaterFlowTests.swift */,
+				847708B01EEA6941009BD520 /* Info.plist */,
+			);
+			path = SwiftWaterFlowTests;
+			sourceTree = "<group>";
+		};
+		847708B81EEA6941009BD520 /* SwiftWaterFlowUITests */ = {
+			isa = PBXGroup;
+			children = (
+				847708B91EEA6941009BD520 /* SwiftWaterFlowUITests.swift */,
+				847708BB1EEA6941009BD520 /* Info.plist */,
+			);
+			path = SwiftWaterFlowUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		847708951EEA6941009BD520 /* SwiftWaterFlow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847708BE1EEA6941009BD520 /* Build configuration list for PBXNativeTarget "SwiftWaterFlow" */;
+			buildPhases = (
+				847708921EEA6941009BD520 /* Sources */,
+				847708931EEA6941009BD520 /* Frameworks */,
+				847708941EEA6941009BD520 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftWaterFlow;
+			productName = SwiftWaterFlow;
+			productReference = 847708961EEA6941009BD520 /* SwiftWaterFlow.app */;
+			productType = "com.apple.product-type.application";
+		};
+		847708A91EEA6941009BD520 /* SwiftWaterFlowTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847708C11EEA6941009BD520 /* Build configuration list for PBXNativeTarget "SwiftWaterFlowTests" */;
+			buildPhases = (
+				847708A61EEA6941009BD520 /* Sources */,
+				847708A71EEA6941009BD520 /* Frameworks */,
+				847708A81EEA6941009BD520 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				847708AC1EEA6941009BD520 /* PBXTargetDependency */,
+			);
+			name = SwiftWaterFlowTests;
+			productName = SwiftWaterFlowTests;
+			productReference = 847708AA1EEA6941009BD520 /* SwiftWaterFlowTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		847708B41EEA6941009BD520 /* SwiftWaterFlowUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 847708C41EEA6941009BD520 /* Build configuration list for PBXNativeTarget "SwiftWaterFlowUITests" */;
+			buildPhases = (
+				847708B11EEA6941009BD520 /* Sources */,
+				847708B21EEA6941009BD520 /* Frameworks */,
+				847708B31EEA6941009BD520 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				847708B71EEA6941009BD520 /* PBXTargetDependency */,
+			);
+			name = SwiftWaterFlowUITests;
+			productName = SwiftWaterFlowUITests;
+			productReference = 847708B51EEA6941009BD520 /* SwiftWaterFlowUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8477088E1EEA6941009BD520 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					847708951EEA6941009BD520 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = L78GS2GP27;
+						ProvisioningStyle = Automatic;
+					};
+					847708A91EEA6941009BD520 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = L78GS2GP27;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 847708951EEA6941009BD520;
+					};
+					847708B41EEA6941009BD520 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = L78GS2GP27;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 847708951EEA6941009BD520;
+					};
+				};
+			};
+			buildConfigurationList = 847708911EEA6941009BD520 /* Build configuration list for PBXProject "SwiftWaterFlow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8477088D1EEA6941009BD520;
+			productRefGroup = 847708971EEA6941009BD520 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				847708951EEA6941009BD520 /* SwiftWaterFlow */,
+				847708A91EEA6941009BD520 /* SwiftWaterFlowTests */,
+				847708B41EEA6941009BD520 /* SwiftWaterFlowUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		847708941EEA6941009BD520 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8442B2CF1F0132ED000F914C /* 1.plist in Resources */,
+				847708A41EEA6941009BD520 /* LaunchScreen.storyboard in Resources */,
+				847708A11EEA6941009BD520 /* Assets.xcassets in Resources */,
+				847708CA1EEA997C009BD520 /* MyCollViewCell.xib in Resources */,
+				8477089F1EEA6941009BD520 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847708A81EEA6941009BD520 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847708B31EEA6941009BD520 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		847708921EEA6941009BD520 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8477089C1EEA6941009BD520 /* ViewController.swift in Sources */,
+				847708C91EEA997C009BD520 /* MyCollViewCell.swift in Sources */,
+				8477089A1EEA6941009BD520 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847708A61EEA6941009BD520 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847708AF1EEA6941009BD520 /* SwiftWaterFlowTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		847708B11EEA6941009BD520 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				847708BA1EEA6941009BD520 /* SwiftWaterFlowUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		847708AC1EEA6941009BD520 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 847708951EEA6941009BD520 /* SwiftWaterFlow */;
+			targetProxy = 847708AB1EEA6941009BD520 /* PBXContainerItemProxy */;
+		};
+		847708B71EEA6941009BD520 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 847708951EEA6941009BD520 /* SwiftWaterFlow */;
+			targetProxy = 847708B61EEA6941009BD520 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8477089D1EEA6941009BD520 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8477089E1EEA6941009BD520 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		847708A21EEA6941009BD520 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				847708A31EEA6941009BD520 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		847708BC1EEA6941009BD520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		847708BD1EEA6941009BD520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		847708BF1EEA6941009BD520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L78GS2GP27;
+				INFOPLIST_FILE = SwiftWaterFlow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ydsz.SwiftWaterFlow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		847708C01EEA6941009BD520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L78GS2GP27;
+				INFOPLIST_FILE = SwiftWaterFlow/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ydsz.SwiftWaterFlow;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		847708C21EEA6941009BD520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L78GS2GP27;
+				INFOPLIST_FILE = SwiftWaterFlowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ydsz.SwiftWaterFlowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftWaterFlow.app/SwiftWaterFlow";
+			};
+			name = Debug;
+		};
+		847708C31EEA6941009BD520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = L78GS2GP27;
+				INFOPLIST_FILE = SwiftWaterFlowTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ydsz.SwiftWaterFlowTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftWaterFlow.app/SwiftWaterFlow";
+			};
+			name = Release;
+		};
+		847708C51EEA6941009BD520 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = L78GS2GP27;
+				INFOPLIST_FILE = SwiftWaterFlowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ydsz.SwiftWaterFlowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwiftWaterFlow;
+			};
+			name = Debug;
+		};
+		847708C61EEA6941009BD520 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = L78GS2GP27;
+				INFOPLIST_FILE = SwiftWaterFlowUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ydsz.SwiftWaterFlowUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = SwiftWaterFlow;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		847708911EEA6941009BD520 /* Build configuration list for PBXProject "SwiftWaterFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847708BC1EEA6941009BD520 /* Debug */,
+				847708BD1EEA6941009BD520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847708BE1EEA6941009BD520 /* Build configuration list for PBXNativeTarget "SwiftWaterFlow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847708BF1EEA6941009BD520 /* Debug */,
+				847708C01EEA6941009BD520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847708C11EEA6941009BD520 /* Build configuration list for PBXNativeTarget "SwiftWaterFlowTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847708C21EEA6941009BD520 /* Debug */,
+				847708C31EEA6941009BD520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		847708C41EEA6941009BD520 /* Build configuration list for PBXNativeTarget "SwiftWaterFlowUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				847708C51EEA6941009BD520 /* Debug */,
+				847708C61EEA6941009BD520 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8477088E1EEA6941009BD520 /* Project object */;
+}
